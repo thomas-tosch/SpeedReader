@@ -1,6 +1,6 @@
-const Vue = () => import('vue');
+import Vue from 'vue';
 const App = () => import('./App.vue');
-const vuetify = import('./plugins/vuetify');
+import vuetify  from './plugins/vuetify';
 
 Vue.config.productionTip = false;
 
