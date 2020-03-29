@@ -49,8 +49,8 @@
 </template>
 
 <script>
-import DisplayWord from '@/components/DisplayWord';
-import TextFeeder from '@/components/TextFeeder';
+const DisplayWord = () => import('@/components/DisplayWord');
+const TextFeeder = () => import('@/components/TextFeeder');
 
 export default {
   name: 'App',

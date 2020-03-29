@@ -12,7 +12,7 @@
 </template>
 
 <script>
-  import MediaBar from '@/components/MediaBar';
+  const MediaBar = () => import('@/components/MediaBar');
   export default {
     name: 'DisplayWord',
     data() {
